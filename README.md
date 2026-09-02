@@ -6,7 +6,7 @@
 
 <p align="center">
   Production-ready <code>SKILL.md</code> packs for Grok Build.<br/>
-  Each skill is a focused method — review, tests, security, shipping — in the Agent Skills format. Clone into <code>~/.grok/skills/</code>.
+  Agent Skills format: one folder, one method file. Not a live routing test of Grok chat.
 </p>
 
 <p align="center">
@@ -276,7 +276,7 @@ Turn a vague ask into a spec an agent can build against: scope, invariants, and 
 
 ## Install
 
-Clone into the user skills directory. Nested `SKILL.md` files live one folder per skill.
+Grok Build's documented skill directories are `./.grok/skills/` and `~/.grok/skills/` (nested `SKILL.md`, one folder per skill). That is the Agent Skills path convention this catalog follows — not evidence that Grok chat loaded these files.
 
 ```bash
 git clone https://github.com/Mine-FNL/grok-skills.git ~/.grok/skills/grok-skills
@@ -289,7 +289,7 @@ git clone https://github.com/Mine-FNL/grok-skills.git
 cp -R grok-skills/skills/* ~/.grok/skills/
 ```
 
-Same files work in Claude Code and Codex. Claude plugin manifests live in [`.claude-plugin/`](.claude-plugin/).
+The frontmatter is the Agent Skills layout Claude Code uses. Plugin manifests live in [`.claude-plugin/`](.claude-plugin/). Codex compatibility is the same format, untested here.
 
 ## Skill format
 
