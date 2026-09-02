@@ -19,6 +19,10 @@
 
 <a id="skills"></a>
 
+<p align="center">
+  <img src="docs/intro.png" alt="Grok Skills — eighteen SKILL.md packs in a three-column card grid" />
+</p>
+
 <table>
 <tr>
 <td valign="top" width="33%">
