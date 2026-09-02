@@ -1,4 +1,6 @@
 name: claims
+# Phrase tripwire over *.md. Green means none of the banned strings matched,
+# not "no unproven claims in this repo."
 on:
   push:
   pull_request:
