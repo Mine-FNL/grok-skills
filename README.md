@@ -276,18 +276,15 @@ Turn a vague ask into a spec an agent can build against: scope, invariants, and 
 
 ## Install
 
-Grok Build's AGENTS.md loads skills from project-local `.grok/skills/` (nested `SKILL.md`). That is this builder's documented path, not a test of Grok chat.
-
-```bash
-git clone https://github.com/Mine-FNL/grok-skills.git .grok/skills/grok-skills
-```
-
-Or copy each skill folder in:
+Copy each pack to `.grok/skills/<slug>/SKILL.md` — the layout Grok Build's AGENTS.md names. Not a test of Grok chat.
 
 ```bash
 git clone https://github.com/Mine-FNL/grok-skills.git
+mkdir -p .grok/skills
 cp -R grok-skills/skills/* .grok/skills/
 ```
+
+Cloning the repo *into* `.grok/skills/grok-skills` nests packs at `.grok/skills/grok-skills/skills/<slug>/` and is the wrong shape.
 
 Plugin manifests for Claude Code live in [`.claude-plugin/`](.claude-plugin/) as format files; this repo does not claim a live Claude or Codex install.
 
@@ -299,7 +296,7 @@ Every pack is one folder, one file:
 skills/code-review/SKILL.md
 ```
 
-YAML frontmatter matches Grok Build's bundled skills (e.g. `.grok/skills/design-ui/SKILL.md`):
+YAML frontmatter this catalog emits:
 
 ```yaml
 name: code-review
