@@ -1,13 +1,9 @@
 ---
 name: "api-design"
 description: "Shape HTTP and RPC so clients can evolve. Idempotency, errors, pagination, compatibility. Use when the user asks to API design."
-when-to-use: "API design, REST vs RPC, endpoint shape, idempotency, versioning"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Shape HTTP and RPC so clients can evolve. Idempotency, errors, pagination, compatibility."
-  category: "design"
 ---
 
 # API Design

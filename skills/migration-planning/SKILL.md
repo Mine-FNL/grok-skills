@@ -1,13 +1,9 @@
 ---
 name: "migration-planning"
 description: "Move data or systems without a night-of surprise. Dual-write, backfill, cutover, rollback. Use when the user asks to migration plan."
-when-to-use: "migration plan, cutover, dual-write, backfill, move off this system"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Move data or systems without a night-of surprise. Dual-write, backfill, cutover, rollback."
-  category: "planning"
 ---
 
 # Migration Planning

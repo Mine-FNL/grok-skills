@@ -1,13 +1,9 @@
 ---
 name: "performance"
 description: "Measure before you change. Find the real hot path, then cut latency or allocations there. Use when the user asks to this is slow."
-when-to-use: "this is slow, profile, N+1, memory leak, optimize, latency"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Measure before you change. Find the real hot path, then cut latency or allocations there."
-  category: "engineering"
 ---
 
 # Performance

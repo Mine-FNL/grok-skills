@@ -1,13 +1,9 @@
 ---
 name: "spec-writing"
 description: "Turn a vague ask into a spec an agent can build against: scope, invariants, and done-when. Use when the user asks to write a spec."
-when-to-use: "write a spec, product spec, implementation plan, done-when, scope this"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Turn a vague ask into a spec an agent can build against: scope, invariants, and done-when."
-  category: "planning"
 ---
 
 # Spec Writing

@@ -1,13 +1,9 @@
 ---
 name: "git-workflow"
 description: "Branch, commit, and PR with a history someone can actually bisect six months later. Use when the user asks to git."
-when-to-use: "git, commit message, branch strategy, rebase vs merge, how should I PR this"
-allowed-tools: "Read, Grep, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Branch, commit, and PR with a history someone can actually bisect six months later."
-  category: "delivery"
 ---
 
 # Git Workflow

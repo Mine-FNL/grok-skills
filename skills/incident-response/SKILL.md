@@ -1,13 +1,9 @@
 ---
 name: "incident-response"
 description: "Stabilize first. Then find the blast radius, the trigger, and the fix that will not make it worse. Use when the user asks to incident."
-when-to-use: "incident, outage, SEV, production is down, rollback or fix forward"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Stabilize first. Then find the blast radius, the trigger, and the fix that will not make it worse."
-  category: "delivery"
 ---
 
 # Incident Response

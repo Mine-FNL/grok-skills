@@ -1,13 +1,9 @@
 ---
 name: "tdd"
 description: "Red, green, refactor. Write the failing test that pins the contract, then the smallest pass. Use when the user asks to TDD."
-when-to-use: "TDD, test-driven, write the test first, red green refactor"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Red, green, refactor. Write the failing test that pins the contract, then the smallest pass."
-  category: "quality"
 ---
 
 # TDD

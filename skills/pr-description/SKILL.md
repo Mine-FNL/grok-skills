@@ -1,13 +1,9 @@
 ---
 name: "pr-description"
 description: "Write the PR a reviewer wants: intent, risk, test plan, and what you deliberately did not do. Use when the user asks to write the PR."
-when-to-use: "write the PR, pull request description, summarize this diff for review"
-allowed-tools: "Read, Grep, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Write the PR a reviewer wants: intent, risk, test plan, and what you deliberately did not do."
-  category: "delivery"
 ---
 
 # PR Description

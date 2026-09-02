@@ -1,13 +1,9 @@
 ---
 name: "frontend-ux"
 description: "Make the interface usable on a phone and a laptop: hierarchy, empty states, and no dead clicks. Use when the user asks to UX review."
-when-to-use: "UX review, this UI is messy, mobile layout, accessibility, polish the page"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Make the interface usable on a phone and a laptop: hierarchy, empty states, and no dead clicks."
-  category: "design"
 ---
 
 # Frontend UX

@@ -1,13 +1,9 @@
 ---
 name: "debugging"
 description: "Reproduce first, then isolate. Turn a failing run into a root cause and a minimal fix. Use when the user asks to debug this."
-when-to-use: "debug this, it's broken, stack trace, why is this failing, isolate the bug"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Reproduce first, then isolate. Turn a failing run into a root cause and a minimal fix."
-  category: "engineering"
 ---
 
 # Debugging

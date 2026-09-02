@@ -1,13 +1,9 @@
 ---
 name: "database-schema"
 description: "Model the data so the queries you will actually run stay honest as the product grows. Use when the user asks to schema."
-when-to-use: "schema, migration, postgres, indexes, normalize, foreign keys"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Model the data so the queries you will actually run stay honest as the product grows."
-  category: "design"
 ---
 
 # Database Schema

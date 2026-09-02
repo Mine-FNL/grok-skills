@@ -276,20 +276,20 @@ Turn a vague ask into a spec an agent can build against: scope, invariants, and 
 
 ## Install
 
-Grok Build's documented skill directories are `./.grok/skills/` and `~/.grok/skills/` (nested `SKILL.md`, one folder per skill). That is the Agent Skills path convention this catalog follows — not evidence that Grok chat loaded these files.
+Grok Build's AGENTS.md loads skills from project-local `.grok/skills/` (nested `SKILL.md`). That is this builder's documented path, not a test of Grok chat.
 
 ```bash
-git clone https://github.com/Mine-FNL/grok-skills.git ~/.grok/skills/grok-skills
+git clone https://github.com/Mine-FNL/grok-skills.git .grok/skills/grok-skills
 ```
 
-Or copy each skill to the top level:
+Or copy each skill folder in:
 
 ```bash
 git clone https://github.com/Mine-FNL/grok-skills.git
-cp -R grok-skills/skills/* ~/.grok/skills/
+cp -R grok-skills/skills/* .grok/skills/
 ```
 
-The frontmatter is the Agent Skills layout Claude Code uses. Plugin manifests live in [`.claude-plugin/`](.claude-plugin/). Codex compatibility is the same format, untested here.
+Plugin manifests for Claude Code live in [`.claude-plugin/`](.claude-plugin/) as format files; this repo does not claim a live Claude or Codex install.
 
 ## Skill format
 
@@ -299,15 +299,17 @@ Every pack is one folder, one file:
 skills/code-review/SKILL.md
 ```
 
-YAML frontmatter (Agent Skills):
+YAML frontmatter matches Grok Build's bundled skills (e.g. `.grok/skills/design-ui/SKILL.md`):
 
 ```yaml
 name: code-review
-description: "…"
-when-to-use: code review, PR review, …
-allowed-tools: Read, Grep, Glob, Bash
+description: "… Use when the user asks to code review."
 user-invocable: true
+metadata:
+  short-description: "…"
 ```
+
+Trigger language lives in `description`. This catalog does not emit `when-to-use` or `allowed-tools`.
 
 ## Catalog
 

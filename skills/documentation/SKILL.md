@@ -1,13 +1,9 @@
 ---
 name: "documentation"
 description: "Write the doc the next person will search for: how to run it, how it fails, and where the source of truth lives. Use when the user asks to write the README."
-when-to-use: "write the README, document this, API docs, runbook, explain how to use it"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Write the doc the next person will search for: how to run it, how it fails, and where the source of truth lives."
-  category: "design"
 ---
 
 # Documentation

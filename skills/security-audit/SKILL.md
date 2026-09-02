@@ -1,13 +1,9 @@
 ---
 name: "security-audit"
 description: "Hunt OWASP-class bugs in the code you can actually reach: injection, authz, secrets, SSRF. Use when the user asks to security audit."
-when-to-use: "security audit, threat model, is this exploitable, OWASP, authz review"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Hunt OWASP-class bugs in the code you can actually reach: injection, authz, secrets, SSRF."
-  category: "engineering"
 ---
 
 # Security Audit

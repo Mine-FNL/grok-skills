@@ -1,13 +1,9 @@
 ---
 name: "code-review"
 description: "Read a diff like a staff engineer: correctness, security, tests, and regression risk before merge. Use when the user asks to code review."
-when-to-use: "code review, PR review, look at this diff, review my changes, inspect this patch"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Read a diff like a staff engineer: correctness, security, tests, and regression risk before merge."
-  category: "engineering"
 ---
 
 # Code Review

@@ -1,13 +1,9 @@
 ---
 name: "repo-health-check"
 description: "Map a new codebase fast: layout, how to run it, the risky bits, the smallest safe first change. Use when the user asks to new repo."
-when-to-use: "new repo, what's in here, health check, onboarding, how do I run this"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Map a new codebase fast: layout, how to run it, the risky bits, the smallest safe first change."
-  category: "quality"
 ---
 
 # Repo Health Check

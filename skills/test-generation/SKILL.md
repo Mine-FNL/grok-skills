@@ -1,13 +1,9 @@
 ---
 name: "test-generation"
 description: "Cover the behavior that can actually break: edges, errors, and the regression that bit you. Use when the user asks to write tests."
-when-to-use: "write tests, add coverage, unit tests, generate tests for this"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Cover the behavior that can actually break: edges, errors, and the regression that bit you."
-  category: "quality"
 ---
 
 # Test Generation

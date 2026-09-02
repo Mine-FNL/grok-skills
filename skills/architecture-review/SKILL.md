@@ -1,13 +1,9 @@
 ---
 name: "architecture-review"
 description: "Judge module boundaries, data flow, and failure modes before the system calcifies. Use when the user asks to architecture review."
-when-to-use: "architecture review, is this the right design, system design, module boundaries"
-allowed-tools: "Read, Grep, Glob"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Judge module boundaries, data flow, and failure modes before the system calcifies."
-  category: "engineering"
 ---
 
 # Architecture Review

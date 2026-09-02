@@ -1,13 +1,9 @@
 ---
 name: "refactoring"
 description: "Change structure without changing behavior. Keep the diff small and the tests green. Use when the user asks to refactor."
-when-to-use: "refactor, clean this up, extract this, reduce duplication, rename across the module"
-allowed-tools: "Read, Grep, Glob, Bash"
 user-invocable: true
 metadata:
-  author: Mine-FNL
   short-description: "Change structure without changing behavior. Keep the diff small and the tests green."
-  category: "engineering"
 ---
 
 # Refactoring
