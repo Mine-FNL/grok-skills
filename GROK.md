@@ -11,9 +11,9 @@ This repository is a catalog, not an application. Each skill lives at `skills/<s
 
 - Keep the body imperative. Name the method, the output, and what not to do.
 - Do not add emoji. Do not write marketing.
-- Frontmatter `description` must include when-to-use language so Grok can route.
+- Frontmatter `description` must include when-to-use language so an agent can route.
 - Quote YAML values (colons appear in descriptions).
-- After changing a skill, regenerate nothing else — `README.md` cards are hand-maintained from the same catalog. If you add a skill, add a card in the intro table, an icon in `docs/icons/`, and a row under Catalog.
+- This repo is generated from the catalog. If you add a skill, add `skills/<slug>/SKILL.md`, `docs/icons/<slug>.svg`, a card in the intro table, and a Catalog row.
 
 ## Layout
 

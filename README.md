@@ -6,7 +6,7 @@
 
 <p align="center">
   Production-ready <code>SKILL.md</code> packs for Grok Build.<br/>
-  Each skill is a focused method — review, tests, security, shipping — that Grok picks up from <code>~/.grok/skills/</code>.
+  Each skill is a focused method — review, tests, security, shipping — in the Agent Skills format. Clone into <code>~/.grok/skills/</code>.
 </p>
 
 <p align="center">
@@ -276,7 +276,7 @@ Turn a vague ask into a spec an agent can build against: scope, invariants, and 
 
 ## Install
 
-Clone the catalog into Grok's user skills directory. Nested `SKILL.md` files are discovered on the next session.
+Clone into the user skills directory. Nested `SKILL.md` files live one folder per skill.
 
 ```bash
 git clone https://github.com/Mine-FNL/grok-skills.git ~/.grok/skills/grok-skills
@@ -299,7 +299,7 @@ Every pack is one folder, one file:
 skills/code-review/SKILL.md
 ```
 
-Frontmatter Grok actually reads:
+YAML frontmatter (Agent Skills):
 
 ```yaml
 name: code-review
