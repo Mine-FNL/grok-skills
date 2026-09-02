@@ -1,0 +1,9 @@
+{
+  "name": "grok-skills",
+  "description": "Production-ready SKILL.md packs for Grok Build: review, tests, security, shipping.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mine-FNL",
+    "url": "https://github.com/Mine-FNL"
+  }
+}
